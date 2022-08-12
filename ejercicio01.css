@@ -1,0 +1,19 @@
+#enunciado {
+    background: gray;
+    color: aliceblue;
+    border-style: double;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#respuesta {
+    background-color: blanchedalmond;
+    color: black;
+    width: 600px;
+    font-size: xx-large;
+}
+
+div {
+    width: 600px;
+}
