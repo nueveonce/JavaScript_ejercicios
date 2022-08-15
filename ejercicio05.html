@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 04</title>
+    <title>Ejercicio 05</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
+
     <div id="enunciado">
         <p>
-            Realiza un programa que sólo permita introducir los caracteres ‘S’ y ‘N’. Si el usuario
-            ingresa alguno de esos dos caracteres se deberá de imprimir un mensaje por pantalla
-            que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”.        
+            Construir un programa que simule un menú de opciones para realizar las cuatro
+            operaciones aritméticas básicas (suma, resta, multiplicación y división) con dos valores
+            numéricos enteros. El usuario, además, debe especificar la operación con el primer
+            carácter de la operación que desea realizar: ‘S' o ‘s’ para la suma, ‘R’ o ‘r’ para la resta, ‘M’
+            o ‘m’ para la multiplicación y ‘D’ o ‘d’ para la división.
         </p>
     </div>
     <br>
+    <div>
+        <form action="">
+            <label for="">Numero 1</label><br>
+            <input type="text" id="numeroA">
+            <br>
+            <label for="">Numero 2</label><br>
+            <input type="text" id="numeroB"><br>
+            <input type="button" value="Sumar" onclick="sumar();">
+            <input type="button" value="Restar">
+            <input type="button" value="Dividir">
+            <input type="button" value="Multiblicar">
+        </form>
+    </div>
     <p>
         <strong>
             <h2>RESPUESTA</h2>
 
             <span id="respuesta">
-                <script src="ejercicio04.js"></script>
+
+                <script src="ejercicio05.js"></script>
+
             </span>
         </strong>
     </p>
 </body>
+
 </html>
