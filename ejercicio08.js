@@ -6,19 +6,16 @@ numero = ingresarValor(numero);
 minimo = numero;
 maximo = numero;
 suma = numero;
-do {
-    contador++;
-    numero = ingresarValor(numero);
-    console.log("suma = " + suma + "numero = " + numero);
-    suma = parseInt(suma) + numero;
-    console.log("suma total = " + suma);
-    console.log("contador = " + contador);
 
+while (numero != 0) {
+    contador++;
+    numero = ingresarValor(numero);    
+    suma = parseInt(suma) + numero;    
     maximo = valorMaximo(numero);
     minimo = valorMinimo(numero);
     promedio = suma / parseInt(contador-1);
 
-} while (numero !== 0);
+} ;
 
 document.write("El valor maximo es: " + maximo);
 document.write("<br>El valor minimo es: " + minimo);
