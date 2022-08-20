@@ -1,6 +1,6 @@
 var cadena = prompt("INGRESE UNA FRASE");
 var palabraMasLarga = 0, cantidadCaracteres, posicion;
-cadena2 = cadena.split(" ");
+var cadena2 = cadena.split(" ");
 console.log(cadena2);
 buscarPalabraMasLarga();
 function buscarPalabraMasLarga() {
