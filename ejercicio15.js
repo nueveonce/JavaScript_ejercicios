@@ -1,15 +1,12 @@
 var radio = prompt("Ingrese el radio");
-console.log(perimetro());
-document.write("perimetro: " + perimetro());
+
+perimetro= () => 2 * Math.PI * radio;
+
+area = () => Math.PI * Math.pow(radio, 2);
+console.log(perimetro(radio));
+document.write("perimetro: " + perimetro(radio));
 
 document.write("<br>");
+document.write("area : " + area(radio));
 
-console.log(area());
-document.write("area : " + area());
-
-function perimetro () {
-    return 2*Math.PI*radio;
-}
-function area() {
-    return Math.PI * Math.pow(radio,2);
-}
+console.log(area(radio));
